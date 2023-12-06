@@ -1,0 +1,113 @@
+.about-work {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.about-section {
+  display: flex;
+}
+
+.about-section img {
+  height: 80px;
+  width: 80px;
+}
+
+.about-section h2 {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1em;
+}
+.about-section p {
+  color: #6f6b80;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .about-section .card {
+    width: 350px;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+  }
+  .about-work {
+    display: flex;
+    justify-content: center;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.developer-section {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.developer-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.developer-area img {
+  height: 400px;
+  width: 410px;
+}
+
+.developer-area h4 {
+  font-size: 25px;
+  color: #f75023;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+.developer-area h2 {
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+
+.developer-area h5 {
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.developer-area p {
+  color: #6f6b80;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-work {
+    display: flex;
+    justify-content: center;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .about-section .card {
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    width: 570px;
+  }
+}

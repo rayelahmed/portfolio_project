@@ -1,0 +1,10 @@
+.brands {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 20px;
+}
+
+.brand .card {
+  border: 1.5px solid #eeeeee;
+  margin-bottom: 15px;
+}

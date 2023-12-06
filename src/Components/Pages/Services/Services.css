@@ -1,0 +1,61 @@
+.my-role {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.services-container .services {
+  color: #f75023;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+.services-container h2 {
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+.services-container h4 {
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+.services-container h5 {
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+.services-container p {
+  color: #6f6b80;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.dollar {
+  color: #f75023;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+.contact-now {
+  width: 100%;
+  max-width: 140px;
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+}

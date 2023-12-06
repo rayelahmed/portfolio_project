@@ -1,0 +1,15 @@
+.e-commerce-container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.e-commerce-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.e-commerce-projects img {
+  height: 350px;
+  width: 250px;
+}

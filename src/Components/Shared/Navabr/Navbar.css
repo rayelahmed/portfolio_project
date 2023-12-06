@@ -1,0 +1,23 @@
+li a {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  /* padding: 0px 15px 0px 15px; */
+}
+
+li .btn {
+  font-size: 16px;
+}
+
+.menu a:hover {
+  background-color: transparent !important;
+}
+
+.cv {
+  color: black;
+}
+.cv-download .btn:hover .cv {
+  color: white;
+  transition-duration: 0.4s;
+}

@@ -1,0 +1,80 @@
+.banner {
+  background-image: url("https://i.ibb.co/K9ZfC2f/banner-bg-1.png");
+  height: 35.208rem;
+  width: 100%;
+}
+
+.banner-section {
+  margin-left: 7%;
+  margin-right: 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 150px;
+}
+
+.banner-section h4 {
+  font-size: 25px;
+  color: #f75023;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+.banner-section h2 {
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+
+.banner-section h5 {
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.banner-section p {
+  color: #6f6b80;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.bd {
+  color: #1cbe59;
+}
+
+.about-me-btn {
+  color: white;
+  border: 2px solid #f75023;
+  background-color: #f75023;
+}
+
+.about-me-btn:hover {
+  color: black;
+  border: 2px solid #f75023;
+  background-color: transparent !important;
+  transition-duration: 0.3s;
+}
+
+.about-me-btn .about-me-span {
+  font-weight: bold;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.portfolio-image img {
+  height: 390px;
+  width: 390px;
+}
+
+.navigate-down-btn {
+  border: 2px solid black;
+}
+
+.navigate-down-btn small {
+  font-weight: 800;
+}
