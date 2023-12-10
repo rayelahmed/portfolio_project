@@ -15,101 +15,105 @@ const Contacts = () => {
       </div>
 
       <div style={{ marginTop: "-5rem" }} className="contact-section ">
-        <h4 className="services">Contact Me</h4>
-        <h2 className="pt-2">I Want To Hear From You</h2>
-        <p className="pt-3">
-          Please fill out the form on this section to contact with me. <br />
-          Knock me any time as you need !
-        </p>
+        <div>
+          <h4 className="services">Contact Me</h4>
+          <h2 className="pt-2">I Want To Hear From You</h2>
+          <p className="pt-3">
+            Please fill out the form on this section to contact with me. <br />
+            Knock me any time as you need !
+          </p>
+        </div>
 
         <div className="contact-area mt-28 flex justify-center">
           <div className="contacts-form">
-            <div className="contact-text">
-              <div className="flex items-center ">
-                <div className="">
+            <div className="contact-text flex justify-center ">
+              <div>
+                <div className="flex items-center ">
+                  <div className="">
+                    <div className="avatar placeholder">
+                      <div
+                        style={{ backgroundColor: "#fedfd7" }}
+                        className=" text-neutral-content rounded-full w-20"
+                      >
+                        <span className="text-3xl">
+                          {" "}
+                          <FontAwesomeIcon
+                            icon={faLocationDot}
+                            style={{ color: "#F75023" }}
+                          />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="pl-6">
+                    <h2 className="text-left">Address</h2>
+                    <p>East Rampura, Dhaka Bangladesh</p>
+                  </div>
+                </div>
+                <div className="flex pt-8">
                   <div className="avatar placeholder">
                     <div
-                      style={{ backgroundColor: "#fedfd7" }}
+                      style={{ backgroundColor: "#ddf5e6" }}
                       className=" text-neutral-content rounded-full w-20"
                     >
                       <span className="text-3xl">
-                        {" "}
                         <FontAwesomeIcon
-                          icon={faLocationDot}
-                          style={{ color: "#F75023" }}
+                          icon={faEnvelope}
+                          style={{ color: "#1CBE59" }}
                         />
                       </span>
                     </div>
                   </div>
-                </div>
-                <div className="pl-6">
-                  <h2 className="text-left">Address</h2>
-                  <p>East Rampura, Dhaka Bangladesh</p>
-                </div>
-              </div>
-              <div className="flex pt-8">
-                <div className="avatar placeholder">
-                  <div
-                    style={{ backgroundColor: "#ddf5e6" }}
-                    className=" text-neutral-content rounded-full w-20"
-                  >
-                    <span className="text-3xl">
-                      <FontAwesomeIcon
-                        icon={faEnvelope}
-                        style={{ color: "#1CBE59" }}
-                      />
-                    </span>
-                  </div>
-                </div>
 
-                <div className="pl-6">
-                  <h2 className="text-left">Email</h2>
-                  <p>rayelahhmed404@gmail.com</p>
-                </div>
-              </div>
-              <div className="flex pt-8">
-                <div className="avatar placeholder">
-                  <div
-                    style={{ backgroundColor: "#ece8fd" }}
-                    className=" text-neutral-content rounded-full w-20"
-                  >
-                    <span className="text-3xl">
-                      <FontAwesomeIcon
-                        icon={faPhone}
-                        style={{ color: "#8067F0" }}
-                      />
-                    </span>
+                  <div className="pl-6">
+                    <h2 className="text-left">Email</h2>
+                    <p>rayelahhmed404@gmail.com</p>
                   </div>
                 </div>
-                <div className="pl-6">
-                  <h2>Phone</h2>
-                  <p>+8801626723831</p>
+                <div className="flex pt-8">
+                  <div className="avatar placeholder">
+                    <div
+                      style={{ backgroundColor: "#ece8fd" }}
+                      className=" text-neutral-content rounded-full w-20"
+                    >
+                      <span className="text-3xl">
+                        <FontAwesomeIcon
+                          icon={faPhone}
+                          style={{ color: "#8067F0" }}
+                        />
+                      </span>
+                    </div>
+                  </div>
+                  <div className="pl-6">
+                    <h2>Phone</h2>
+                    <p>+8801626723831</p>
+                  </div>
                 </div>
               </div>
             </div>
             <div className="contact-form">
-              <div className="flex">
+              <div className="flex justify-start">
                 <input
                   type="text"
-                  placeholder="Type here"
-                  className="input input-bordered m-2 focus:outline-none input-primary w-full max-w-xs"
+                  placeholder="Your Name"
+                  className="input input-bordered  focus:outline-none input-primary w-full  max-w-xs"
                 />
                 <input
                   type="text"
-                  placeholder="Type here"
-                  className="input input-bordered m-2 focus:outline-none input-primary w-full max-w-xs"
+                  placeholder="Your Email"
+                  className="input input-bordered ml-2 focus:outline-none input-primary w-full  max-w-xs"
                 />
               </div>
               <div className="flex pt-4">
                 <input
-                  type="text"
-                  placeholder="Type here"
-                  className="input input-bordered m-2  focus:outline-none input-primary w-full max-w-xs"
+                  type="Your Phone "
+                  placeholder="Your Phone"
+                  className="input input-bordered   focus:outline-none input-primary w-full max-w-xs"
                 />
                 <input
                   type="text"
-                  placeholder="Type here"
-                  className="input   focus:outline-none m-2 input-primary w-full max-w-xs"
+                  placeholder="Your Subject"
+                  className="input   input-bordered ml-2  focus:outline-none input-primary w-full max-w-xs"
                 />
               </div>
               <div className="pt-4">

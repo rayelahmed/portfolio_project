@@ -13,7 +13,14 @@ const Services = () => {
       <div className="flex justify-end">
         <img src={objects6} alt="" />
       </div>
-      <div style={{ marginTop: "-5rem", marginBottom: "-5rem" }}>
+      <div
+        style={{
+          marginTop: "-5rem",
+          marginRight: "7%",
+          marginLeft: "7%",
+          marginBottom: "-5rem",
+        }}
+      >
         <h4 className="services">Services</h4>
         <h2 className="pt-2">What I Do for Clients</h2>
         <p className="pt-3">

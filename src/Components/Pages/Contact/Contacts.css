@@ -25,3 +25,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+@media (min-width: 0px) and (max-width: 720px) {
+  .contacts-form {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contact-text {
+    padding-bottom: 3rem;
+  }
+}

@@ -1,4 +1,6 @@
 .my-role {
+  margin-left: 5%;
+  margin-right: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
@@ -58,4 +60,14 @@
 .card {
   width: 100%;
   max-width: 500px;
+}
+
+@media (max-width: 720px) {
+  .my-role {
+    margin-left: 7%;
+    margin-right: 7%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
 }

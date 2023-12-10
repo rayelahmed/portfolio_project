@@ -14,6 +14,14 @@
   line-height: 1.4em;
 }
 
+.clients-testimonial {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
 .testimonials-container h2 {
   color: #000000;
   font-family: "Open Sans", Sans-serif;
@@ -42,4 +50,13 @@
   font-family: "Open Sans", Sans-serif;
   font-size: 18px;
   font-weight: 500;
+}
+
+@media (max-width: 720px) {
+  .clients-testimonial {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

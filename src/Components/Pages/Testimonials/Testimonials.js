@@ -11,7 +11,9 @@ const Testimonials = () => {
         {" "}
         <img src={effects2} alt="" />
       </div>
-      <div style={{ marginTop: "-5rem" }}>
+      <div
+        style={{ marginTop: "-5rem", paddingLeft: "5%", paddingRight: "5%" }}
+      >
         <h4>Testimonials</h4>
         <h2 className="pt-2">What my Clients say</h2>
         <p className="testimonials-text pt-3">
@@ -20,7 +22,7 @@ const Testimonials = () => {
         </p>{" "}
       </div>
       <div className="flex justify-center pt-16 ">
-        <div className="my-role  mt-6">
+        <div className="clients-testimonial  mt-6">
           <div className="card w-96 bg-base-100 shadow-2xl">
             <div className="card-body">
               <div className="card-actions flex justify-center"></div>

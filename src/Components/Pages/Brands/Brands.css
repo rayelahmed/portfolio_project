@@ -1,4 +1,6 @@
 .brands {
+  margin-left: 7%;
+  margin-right: 7%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 20px;
@@ -7,4 +9,33 @@
 .brand .card {
   border: 1.5px solid #eeeeee;
   margin-bottom: 15px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .brands {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 481px) and (max-width: 720px) {
+  .brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 721px) and (max-width: 1024px) {
+  .brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+  }
 }
