@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Projects.css";
 import ECommerce from "./ECommerce";
+import object2 from "../../../Images/IMG/object-2-1-1.png";
 
 const Projects = () => {
   const [activeButton, setActiveButton] = useState("All");
@@ -9,7 +10,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="project-container  flex justify-center">
+    <div className="project-container mt-10  flex justify-center">
       <div>
         <div className="buttons flex mt-10 flex justify-center">
           <div>
@@ -67,6 +68,9 @@ const Projects = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div style={{ marginTop: "-14rem" }} className="flex justify-end">
+          <img src={object2} alt="" />
         </div>
       </div>
     </div>

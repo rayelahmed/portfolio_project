@@ -1,5 +1,5 @@
 import React from "react";
-import ECommerce1 from "../../../Images/IMG/e-commerce1.jpg";
+
 import ECommerce2 from "../../../Images/IMG/e-commerce2.jpg";
 import ECommerce3 from "../../../Images/IMG/e-commerce3.jpg";
 import ECommerce4 from "../../../Images/IMG/e-commerce4.jpg";
@@ -11,7 +11,10 @@ const ECommerce = () => {
       <div className="e-commerce-projects">
         <div>
           <a href="https://gym-equipment-apps.netlify.app/">
-            <img src={ECommerce1} alt="" />
+            <img
+              src="https://i.ibb.co/74SqwGc/serious-attractive-man-is-doing-exercises-with-training-apparatus-dark-gym-club-2.jpg"
+              alt=""
+            />
           </a>
         </div>
         <div>

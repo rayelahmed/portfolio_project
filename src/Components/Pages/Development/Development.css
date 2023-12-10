@@ -37,3 +37,18 @@
   font-weight: 400;
   line-height: 1.5em;
 }
+
+@media (min-width: 0px) and (max-width: 980px) {
+  .development-section {
+    flex-direction: column-reverse;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 120px;
+  }
+  .development-text {
+    order: 2;
+  }
+  .development-img {
+    order: 1;
+  }
+}

@@ -4,10 +4,16 @@ import FrontEnd from "../../../Images/IMG/ui-design.png";
 import backEnd from "../../../Images/IMG/backend (1).png";
 import databaseManagement from "../../../Images/IMG/data-management.png";
 import fullStack from "../../../Images/IMG/developer.png";
+import objects6 from "../../../Images/IMG/object-6-1-1.png";
+import objects5 from "../../../Images/IMG/object-5-1-1.png";
+
 const Services = () => {
   return (
     <div className="services-container">
-      <div>
+      <div className="flex justify-end">
+        <img src={objects6} alt="" />
+      </div>
+      <div style={{ marginTop: "-5rem", marginBottom: "-5rem" }}>
         <h4 className="services">Services</h4>
         <h2 className="pt-2">What I Do for Clients</h2>
         <p className="pt-3">
@@ -15,7 +21,10 @@ const Services = () => {
           interface and <br /> managing client-side logic for web applications.
         </p>{" "}
       </div>
-      <div className="flex justify-center pt-16 ">
+      <div className="flex justify-start">
+        <img className="h-80 w-80" src={objects5} alt="" />
+      </div>
+      <div style={{ marginTop: "-10rem" }} className="flex justify-center  ">
         <div className="my-role  mt-6">
           <div className="card w-96 bg-base-100 shadow-2xl">
             <div className="card-body">

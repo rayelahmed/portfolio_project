@@ -2,11 +2,16 @@ import React from "react";
 import client1 from "../../../Images/IMG/testmonial-1-1.jpg";
 import client2 from "../../../Images/IMG/testimonials-img-1-1.jpg";
 import "./Testimonials.css";
+import effects2 from "../../../Images/IMG/effect-2-1.png";
 
 const Testimonials = () => {
   return (
-    <div className="testimonials-container mt-28">
-      <div>
+    <div className="testimonials-container mt-20">
+      <div className=" flex justify-end">
+        {" "}
+        <img src={effects2} alt="" />
+      </div>
+      <div style={{ marginTop: "-5rem" }}>
         <h4>Testimonials</h4>
         <h2 className="pt-2">What my Clients say</h2>
         <p className="testimonials-text pt-3">

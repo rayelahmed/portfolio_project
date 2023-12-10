@@ -1,3 +1,9 @@
+.developer-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
 .about-work {
   margin-left: 5%;
   margin-right: 5%;
@@ -28,35 +34,11 @@
   line-height: 30px;
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
-  .about-section .card {
-    width: 350px;
-    border: 1px solid #ececec;
-    border-radius: 10px;
-  }
-  .about-work {
-    display: flex;
-    justify-content: center;
-    margin-left: 7%;
-    margin-right: 7%;
-  }
-  .about-section {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-}
-
 .developer-section {
   margin-left: 7%;
   margin-right: 7%;
 }
 
-.developer-area {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-}
 .developer-area img {
   height: 400px;
   width: 410px;
@@ -92,8 +74,36 @@
   font-weight: 400;
   line-height: 1.5em;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .about-section .card {
+    width: 350px;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+  }
+  .about-work {
+    display: flex;
+    justify-content: center;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .developer-area {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .developer-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
   .about-work {
     display: flex;
     justify-content: center;

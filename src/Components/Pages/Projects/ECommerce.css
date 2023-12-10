@@ -11,5 +11,27 @@
 
 .e-commerce-projects img {
   height: 350px;
-  width: 250px;
+  width: 400px;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .e-commerce-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+@media (min-width: 481px) and (max-width: 720px) {
+  .e-commerce-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+@media (min-width: 720px) and (max-width: 1024px) {
+  .e-commerce-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }

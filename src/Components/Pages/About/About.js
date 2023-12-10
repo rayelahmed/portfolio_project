@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import colleague from "../../../Images/IMG/about.png";
+import bg2 from "../../../Images/IMG/2-1-1.png";
 
 const About = () => {
   return (
@@ -60,25 +61,37 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="developer-section mt-20 flex justify-center">
-        <div className="developer-area ">
-          <div className="img">
-            <img src={colleague} alt="" />
+
+      <div className=" mt-20 ">
+        <div style={{ marginBottom: "-5rem" }}>
+          <img src="https://i.ibb.co/RTT8WnR/1-1-1.png" alt="" />
+        </div>
+        <div className="developer-section flex justify-center">
+          <div className="developer-area ">
+            <div className="img flex justify-center">
+              <img src={colleague} alt="" />
+            </div>
+            <div className="about-title text-start mt-4">
+              <h4>I'm a Developer</h4>
+              <h2>I can make your awesome website </h2>
+              <p className="pt-4">
+                Hello, I'm Rayel Ahmed Turjo, a passionate MERN stack developer
+                with a keen interest in building robust and scalable web
+                applications. I thrive on turning innovative ideas into reality
+                through code and am constantly exploring new technologies to
+                stay on the cutting edge of web development
+              </p>
+              <button className="about-me-btn mt-10   pl-8 pr-8 pt-2 pb-2  rounded-full">
+                <span className=" about-me-span "> HIre Me</span>
+              </button>
+            </div>
           </div>
-          <div className="about-title text-start mt-4">
-            <h4>I'm a Developer</h4>
-            <h2>I can make your awesome website </h2>
-            <p className="pt-4">
-              Hello, I'm Rayel Ahmed Turjo, a passionate MERN stack developer
-              with a keen interest in building robust and scalable web
-              applications. I thrive on turning innovative ideas into reality
-              through code and am constantly exploring new technologies to stay
-              on the cutting edge of web development
-            </p>
-            <button className="about-me-btn mt-10   pl-8 pr-8 pt-2 pb-2  rounded-full">
-              <span className=" about-me-span "> HIre Me</span>
-            </button>
-          </div>
+        </div>
+        <div
+          className="flex justify-end"
+          style={{ marginTop: "-5rem", paddingRight: "-5rem" }}
+        >
+          <img src={bg2} alt="" />
         </div>
       </div>
     </div>
