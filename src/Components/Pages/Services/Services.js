@@ -9,7 +9,7 @@ import objects5 from "../../../Images/IMG/object-5-1-1.png";
 
 const Services = () => {
   return (
-    <div className="services-container">
+    <div className="services-container" id="services">
       <div className="flex justify-end">
         <img src={objects6} alt="" />
       </div>

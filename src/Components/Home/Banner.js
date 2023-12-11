@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Shared/Navabr/Navbar";
 import "./Banner.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { HashLink as NavLink } from "react-router-hash-link";
 import {
   faFacebookF,
   faLinkedinIn,
@@ -101,7 +102,10 @@ const Banner = () => {
               style={{ marginBottom: "2rem" }}
               className="navigate-down-btn rounded-full pb-4 pl-1.5 pr-1.5"
             >
-              <small className="text-sm">।</small>
+              {" "}
+              <NavLink smooth to="#about">
+                <small className="text-sm">।</small>
+              </NavLink>
             </button>
           </div>
         </div>

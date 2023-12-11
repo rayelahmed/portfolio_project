@@ -9,7 +9,7 @@ import effects52 from "../../../Images/IMG/effect-52-1.png";
 
 const Contacts = () => {
   return (
-    <div style={{ marginTop: "-12rem" }}>
+    <div style={{ marginTop: "-12rem" }} id="contact">
       <div style={{ marginBottom: "-12rem" }}>
         <img src={effects12} alt="" />
       </div>
@@ -24,7 +24,7 @@ const Contacts = () => {
           </p>
         </div>
 
-        <div className="contact-area mt-28 flex justify-center">
+        <div className="contact-area mt-20 flex justify-center">
           <div className="contacts-form">
             <div className="contact-text flex justify-center ">
               <div>

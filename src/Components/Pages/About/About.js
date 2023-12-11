@@ -5,7 +5,7 @@ import bg2 from "../../../Images/IMG/2-1-1.png";
 
 const About = () => {
   return (
-    <div className="about-container mt-40">
+    <div className="about-container mt-40 " id="about">
       <div className="about-work">
         <div className="about-section mt-48">
           <div className="card w-96 ">

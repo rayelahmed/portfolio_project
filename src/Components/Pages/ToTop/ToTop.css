@@ -1,0 +1,7 @@
+.rotate-text {
+  background-color: blueviolet;
+  transform: rotate(90deg); /* Rotate the text 90 degrees clockwise */
+  transform-origin: left top; /* Set the rotation origin to the top-left corner */
+  white-space: nowrap; /* Prevent text from wrapping */
+  writing-mode: vertical-rl; /* Set the writing mode to vertical right-to-left */
+}

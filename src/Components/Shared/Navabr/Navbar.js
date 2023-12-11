@@ -1,7 +1,8 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { useState } from "react";
+import { HashLink as NavLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [showHamburger, setShowHamburger] = useState(false);
@@ -70,17 +71,25 @@ const Navbar = () => {
         </li>
 
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink smooth to="#about">
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/projects">Projects</NavLink>
+          <NavLink smooth to="#projects">
+            Projects
+          </NavLink>
         </li>
 
         <li>
-          <NavLink to="/services">Service</NavLink>
+          <NavLink smooth to="#services">
+            Service
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink smooth to="#contact">
+            Contact
+          </NavLink>
         </li>
         <li className="cv-download text-center">
           <button
